@@ -7,6 +7,7 @@ lebih dari 500 ribu sepeda. Saat ini, terdapat minat yang besar terhadap sistem 
 masalah lingkungan dan kesehatan.
 
 ## Struktur 
+```
 |dashboard  
 |├───main_data.csv  
 |└───dashboard.py  
@@ -16,16 +17,17 @@ masalah lingkungan dan kesehatan.
 |notebook.ipynb  
 |README.md  
 |requirements.txt  
+```
 
-## Cara menjalankan
-1. buka terminal atau command prompt
-2. install library yang dibutuhkan
-    <pre><code>
-    pip install streamlit
-    pip install pandas
-    pip install matplotlib
-    pip install seaborn
-    </code></pre>
-3. <pre><code>cd dashboard</code></pre>
-4. <pre><code>streamlit run dashboard.py
-5. buka browser ketikan <code>localhost:8501</code> pada address bar
+## Setup environment
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+```
+
+## Run steamlit app
+```
+cd bikesharingdataanalisis-dicoding
+streamlit run dashboard/dashboard.py
+```
