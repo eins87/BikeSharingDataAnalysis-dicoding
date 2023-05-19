@@ -26,7 +26,7 @@ conda activate main-ds
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 ```
 
-## Run steamlit app
+## Run streamlit app
 ```
 cd bikesharingdataanalisis-dicoding
 streamlit run dashboard/dashboard.py
