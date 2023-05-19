@@ -59,9 +59,8 @@ def main():
     st.subheader('Kesimpulan')
     st.subheader('1. Berapa banyak pengguna berdasarkan season/musim?')
     st.write('dapat di lihat bahwa pengguna lebih banyak menggunakan Bike Sharing pada season/musim summer atau musim panas')
-    st.subheader('Pada jam berapa rata-rata pengguna paling banyak per-hari dan per-minggu?')
-    st.write('dari data tersebut pengguna paling banyak menggunakan Bike Sharing pada jam 17.00 atau jam 5 sore hari')
-    st.write('dan pengguna paling banyak menggunakan Bike Sharing pada hari selasa')
+    st.subheader('2. Pada jam berapa rata-rata pengguna paling banyak per-hari dan per-minggu?')
+    st.write('dari data tersebut pengguna paling banyak menggunakan Bike Sharing pada jam 17.00 atau jam 5 sore hari dan pengguna paling banyak menggunakan Bike Sharing pada hari selasa')
 
 if __name__ == '__main__':
     main()
