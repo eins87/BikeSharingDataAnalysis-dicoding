@@ -12,8 +12,8 @@ dashboard
  ├───main_data.csv  
  └───dashboard.py  
  ├───data  
- |    ├───data_1.csv  
- |    └───data_2.csv  
+      ├───data_1.csv  
+      └───data_2.csv  
  ├──notebook.ipynb  
  ├──README.md  
  └──requirements.txt  
@@ -22,3 +22,4 @@ dashboard
 1. install library yang dibutuhkan
 3. buka terminal
 4. <pre><code>cd dashboard</code></pre>
+5. <pre><code>streamlit run dashboard.py
