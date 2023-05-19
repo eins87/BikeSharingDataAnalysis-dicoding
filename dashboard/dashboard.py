@@ -11,7 +11,7 @@ weather_rentals = all_data.groupby('season_x')['cnt_y'].mean().reset_index()
 import streamlit as st
 
 name="Andi Winata"
-email="andi.play87@gmail.com"
+email="andi.winata879@gmail.com"
 
 def main():
     st.title("Bike Sharing Data Analysis - dicoding")
