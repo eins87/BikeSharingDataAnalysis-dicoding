@@ -6,17 +6,16 @@ kembali ke posisi lain. Saat ini, terdapat lebih dari 500 program berbagi sepeda
 lebih dari 500 ribu sepeda. Saat ini, terdapat minat yang besar terhadap sistem ini karena peran pentingnya dalam lalu lintas, 
 masalah lingkungan dan kesehatan.
 
-## Struktur
-submission  
-dashboard  
-├───main_data.csv  
-└───dashboard.py  
-data  
-├───data_1.csv  
-└───data_2.csv  
-notebook.ipynb  
-README.md  
-requirements.txt  
+## Struktur 
+|dashboard  
+|├───main_data.csv  
+|└───dashboard.py  
+|data  
+|├───data_1.csv  
+|└───data_2.csv  
+|notebook.ipynb  
+|README.md  
+|requirements.txt  
 
 ## Cara menjalankan
 1. install library yang dibutuhkan
