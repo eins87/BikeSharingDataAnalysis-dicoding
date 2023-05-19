@@ -10,12 +10,17 @@ weather_rentals = all_data.groupby('season_x')['cnt_y'].mean().reset_index()
 # Create the Streamlit app
 import streamlit as st
 
+name="Andi Winata"
+email="andi.play87@gmail.com"
+
 def main():
     st.title("Bike Sharing Data Analysis - dicoding")
 
     # Sidebar
     with st.sidebar:
-        st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
+        st.subheader("My Profile")
+        st.write("Nama : "+ name)
+        st.write("Email : "+ email)
 
     # First row
     st.subheader('Berapa banyak pengguna berdasarkan season/musim?')
