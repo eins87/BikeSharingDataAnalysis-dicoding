@@ -18,7 +18,14 @@ masalah lingkungan dan kesehatan.
 |requirements.txt  
 
 ## Cara menjalankan
-1. install library yang dibutuhkan
-3. buka terminal
-4. <pre><code>cd dashboard</code></pre>
-5. <pre><code>streamlit run dashboard.py
+1. buka terminal atau command prompt
+2. install library yang dibutuhkan
+    <pre><code>
+    pip install streamlit
+    pip install pandas
+    pip install matplotlib
+    pip install seaborn
+    </code></pre>
+3. <pre><code>cd dashboard</code></pre>
+4. <pre><code>streamlit run dashboard.py
+5. buka browser ketikan <code>localhost:8501</code> pada address bar
