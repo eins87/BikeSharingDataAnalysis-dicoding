@@ -8,15 +8,15 @@ masalah lingkungan dan kesehatan.
 
 ## Struktur
 submission  
-├─dashboard  
-| ├───main_data.csv  
-| └───dashboard.py  
-├───data  
-| ├───data_1.csv  
-| └───data_2.csv  
-├───notebook.ipynb  
-├───README.md  
-└───requirements.txt  
+dashboard  
+├───main_data.csv  
+└───dashboard.py  
+data  
+├───data_1.csv  
+└───data_2.csv  
+notebook.ipynb  
+README.md  
+requirements.txt  
 
 ## Cara menjalankan
 1. install library yang dibutuhkan
